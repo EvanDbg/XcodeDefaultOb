@@ -33,3 +33,9 @@
 		#undef _THEOS_IS_IOS
 	#endif
 #endif
+#import <theos/BackwardsCompat.h>
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import <theos/IOSMacros.h>
+#import <HBLog.h>
+#import <RemoteLog.h>
