@@ -24,7 +24,7 @@ jobs:
       - name: theos env
         run: |
           git clone https://github.com/xybp888/iOS-SDKs ../iOS-SDKs
-          cp ../iOS-SDKs/iPhoneOS14.5.sdk .
+          cp -r ../iOS-SDKs/iPhoneOS14.5.sdk .
           
       - name: Add & Commit
         # You may pin to the exact commit or the version.
